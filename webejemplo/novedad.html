@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/page.css">
+
+    <title>Mi pagina</title>
+  </head>
+  <body id="inicio" class="bg-dark">
+    <header class="jumbotron mb-0 rounded-0 text-center bg-danger text-light">
+      <div class="container-fluid">
+        <div class="row justify-content-end m-0 p-0">
+          <div class="col-auto m-0 p-0">
+            <a href="login" class="btn btn-outline-light"><i class="fas fa-sign-in-alt"></i> Intranet</a>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-auto">
+            <h1 class="display-4">Mi pagina</h1>
+            <p class="lead">Bienvenido a mi pagina.</p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-12 col-sm-12 col-md-8 col-lg-6 col-xl-6">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Ingrese título de Noticia" aria-label="¿Ingrese noticia?" aria-describedby="basic-addon2" v-model="busInput">
+              <div class="input-group-append">
+                <button class="btn btn-outline-light" type="button"><i class="fas fa-search"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-white bs" role="navegador">
+      <button class="navbar-toggler" type="button" data-target=".navbar-collapse" data-toggle="collapse" aria-label="Expandir navegador" aria-expanded="false">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navegador">
+        <ul  class="navbar-nav mx-auto justify-content-center text-center">
+          <li class="nav-item">
+            <a class="nav-link" href="plantilla.html#inicio">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="plantilla.html#quienes-somos">Quienes Somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="plantilla.html#servicios">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="plantilla_noticias.html">Noticias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="plantilla.html#contactanos">Contactanos</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main class="container-fluid">
+      <section>
+        <div class="row justify-content-center bg-danger py-3 mb-0 text-white titulo-pagina">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 align-self-center pt-2 pb-2">
+            <div class="d-flex justify-content-center">
+              <h4 class="text-uppercase font-weight-bold align-self-center" >Noticias</h4>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-7 col-lg-7 p-2" style="opacity:0.8;">
+            <div class="card border-danger text-light bg-danger">
+              <div class="evento">
+                <div class="card-body text-dark bg-white text-center">
+                  <h3 class="card-title"><ins>Titulo de Noticia</ins></h3>
+                  
+                  <figure class="figure">
+                    <img src="https://via.placeholder.com/800x600.png?text=Portada" class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption text-right">
+                      <small class="text-muted">
+                        <img src="https://via.placeholder.com/50.png?text=bandera" alt="imagen bandera" style="max-width: 20px; max-height: 20px"> PERU | 
+                        <i class="fa fa-calendar" aria-hidden="true"></i> Publicado el 25/09/2019
+                      </small>
+                    </figcaption>
+                  </figure>
+                  <p class="card-text text-justify">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at fringilla dolor. Vestibulum consectetur erat dolor, sed viverra magna euismod ornare. Vivamus malesuada efficitur fringilla. Mauris a pellentesque lectus. Nam gravida quam vitae pellentesque condimentum. Praesent eget tempus ex. Curabitur feugiat tristique orci eget mollis. Vestibulum velit sapien, imperdiet et lobortis vitae, gravida ac ipsum.
+                  </p>
+                  <figure class="figure">
+                    <img src="https://via.placeholder.com/400x300.png?text=imagen" class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption text-right">Descripcion de imagen.</figcaption>
+                  </figure>
+                  <figure class="figure">
+                    <img src="https://via.placeholder.com/400x300.png?text=imagen" class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption text-right">Descripcion de imagen.</figcaption>
+                  </figure>
+                  <p class="card-text text-justify">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at fringilla dolor. Vestibulum consectetur erat dolor, sed viverra magna euismod ornare. Vivamus malesuada efficitur fringilla. Mauris a pellentesque lectus. Nam gravida quam vitae pellentesque condimentum. Praesent eget tempus ex. Curabitur feugiat tristique orci eget mollis. Vestibulum velit sapien, imperdiet et lobortis vitae, gravida ac ipsum.
+                  </p>
+                  <figure class="figure">
+                    <img src="https://via.placeholder.com/400x300.png?text=imagen" class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption text-right">Descripcion de imagen.</figcaption>
+                  </figure>
+                  <p class="card-text text-justify">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at fringilla dolor. Vestibulum consectetur erat dolor, sed viverra magna euismod ornare. Vivamus malesuada efficitur fringilla. Mauris a pellentesque lectus. Nam gravida quam vitae pellentesque condimentum. Praesent eget tempus ex. Curabitur feugiat tristique orci eget mollis. Vestibulum velit sapien, imperdiet et lobortis vitae, gravida ac ipsum.
+                  </p>
+                  <figure class="figure">
+                    <img src="https://via.placeholder.com/300x200.png?text=imagen" class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption text-right">Descripcion de imagen.</figcaption>
+                  </figure>
+                  <figure class="figure">
+                    <img src="https://via.placeholder.com/300x200.png?text=imagen" class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption text-right">Descripcion de imagen.</figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-5 col-lg-5 p-2" style="opacity:0.8;">
+            <div class="card border-danger text-light bg-danger mb-3">
+              <div class="card-header">Buscar</div>
+              <div class="card-body text-dark bg-white">
+                <form action="#" class="toggle-disabled" method="Post" >
+                  <div class="input-group mb-1">
+                    <input type="text" name="buscar" class="form-control" placeholder="Buscar noticia por Título">
+                    <div class="input-group-append">
+                      <button class="btn btn-outline-danger" type="submit"><i class="fas fa-search"></i></button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="card border-danger text-light bg-danger">
+              <div class="card-header">Ultimas Noticias</div>
+              <div class="card-body text-dark bg-white p-0">
+                <ul class="list-group">
+                  <a href="plantilla_noticia.html" class="text-decoration-none">
+                    <li class="list-group-item p-2">
+                    <div class="row">
+                      <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                        <img class="img-fluid" src="https://via.placeholder.com/200x120.png?text=portada" alt="imagen">
+                      </div>
+                      <div class="col-12 col-sm-6 col-md-8 col-lg-8 text-justify">
+                        <p class="text-danger text-break" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at fringilla dolor. Vestibulum consectetur erat dolor, sed viverra magna euismod ornare.</p>
+                        <small class="text-muted">
+                          <img src="https://via.placeholder.com/50.png?text=bandera" alt="imagen bandera" style="max-width: 20px; max-height: 20px"> PERU
+                          <span><i class="fa fa-calendar" aria-hidden="true"></i> Publicado el 25/09/2019</span>
+                        </small>
+                      </div>
+                    </div>
+                    </li>
+                  </a>
+                  <a href="plantilla_noticia.html" class="text-decoration-none">
+                    <li class="list-group-item p-2">
+                    <div class="row">
+                      <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                        <img class="img-fluid" src="https://via.placeholder.com/200x120.png?text=portada" alt="imagen">
+                      </div>
+                      <div class="col-12 col-sm-6 col-md-8 col-lg-8 text-justify">
+                        <p class="text-danger text-break" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at fringilla dolor. Vestibulum consectetur erat dolor, sed viverra magna euismod ornare.</p>
+                        <small class="text-muted">
+                          <img src="https://via.placeholder.com/50.png?text=bandera" alt="imagen bandera" style="max-width: 20px; max-height: 20px"> PERU
+                          <span><i class="fa fa-calendar" aria-hidden="true"></i> Publicado el 25/09/2019</span>
+                        </small>
+                      </div>
+                    </div>
+                    </li>
+                  </a>
+                  <a href="plantilla_noticia.html" class="text-decoration-none">
+                    <li class="list-group-item p-2">
+                    <div class="row">
+                      <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                        <img class="img-fluid" src="https://via.placeholder.com/200x120.png?text=portada" alt="imagen">
+                      </div>
+                      <div class="col-12 col-sm-6 col-md-8 col-lg-8 text-justify">
+                        <p class="text-danger text-break" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at fringilla dolor. Vestibulum consectetur erat dolor, sed viverra magna euismod ornare.</p>
+                        <small class="text-muted">
+                          <img src="https://via.placeholder.com/50.png?text=bandera" alt="imagen bandera" style="max-width: 20px; max-height: 20px"> PERU
+                          <span><i class="fa fa-calendar" aria-hidden="true"></i> Publicado el 25/09/2019</span>
+                        </small>
+                      </div>
+                    </div>
+                    </li>
+                  </a>
+                  <a href="plantilla_noticia.html" class="text-decoration-none">
+                    <li class="list-group-item p-2">
+                    <div class="row">
+                      <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                        <img class="img-fluid" src="https://via.placeholder.com/200x120.png?text=portada" alt="imagen">
+                      </div>
+                      <div class="col-12 col-sm-6 col-md-8 col-lg-8 text-justify">
+                        <p class="text-danger text-break" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at fringilla dolor. Vestibulum consectetur erat dolor, sed viverra magna euismod ornare.</p>
+                        <small class="text-muted">
+                          <img src="https://via.placeholder.com/50.png?text=bandera" alt="imagen bandera" style="max-width: 20px; max-height: 20px"> PERU
+                          <span><i class="fa fa-calendar" aria-hidden="true"></i> Publicado el 25/09/2019</span>
+                        </small>
+                      </div>
+                    </div>
+                    </li>
+                  </a>
+                  <a href="plantilla_noticia.html" class="text-decoration-none">
+                    <li class="list-group-item p-2">
+                    <div class="row">
+                      <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                        <img class="img-fluid" src="https://via.placeholder.com/200x120.png?text=portada" alt="imagen">
+                      </div>
+                      <div class="col-12 col-sm-6 col-md-8 col-lg-8 text-justify">
+                        <p class="text-danger text-break" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at fringilla dolor. Vestibulum consectetur erat dolor, sed viverra magna euismod ornare.</p>
+                        <small class="text-muted">
+                          <img src="https://via.placeholder.com/50.png?text=bandera" alt="imagen bandera" style="max-width: 20px; max-height: 20px"> PERU
+                          <span><i class="fa fa-calendar" aria-hidden="true"></i> Publicado el 25/09/2019</span>
+                        </small>
+                      </div>
+                    </div>
+                    </li>
+                  </a>
+                  <a href="plantilla_noticia.html" class="text-decoration-none">
+                    <li class="list-group-item p-2">
+                    <div class="row">
+                      <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                        <img class="img-fluid" src="https://via.placeholder.com/200x120.png?text=portada" alt="imagen">
+                      </div>
+                      <div class="col-12 col-sm-6 col-md-8 col-lg-8 text-justify">
+                        <p class="text-danger text-break" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at fringilla dolor. Vestibulum consectetur erat dolor, sed viverra magna euismod ornare.</p>
+                        <small class="text-muted">
+                          <img src="https://via.placeholder.com/50.png?text=bandera" alt="imagen bandera" style="max-width: 20px; max-height: 20px"> PERU
+                          <span><i class="fa fa-calendar" aria-hidden="true"></i> Publicado el 25/09/2019</span>
+                        </small>
+                      </div>
+                    </div>
+                    </li>
+                  </a>
+                </ul>
+              </div>
+              <div class="card-footer bg-light border-danger text-right">
+                <ul class="pagination pull-left" style="margin: 0px;">
+                  <li><a href="plantilla_noticias.html" class="btn btn-danger btn-sm text-white" title="Ver Todas las Noticias"><span> Ver Todas</span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contactanos">
+        <div class="row justify-content-center bg-light text-center p-5">
+          <div class="col col-sm-12 col-md-10 col-lg-6 col-xl-6">
+            <h1 class="jumbotron-heading text-dark">Contacto <span class="text-danger" >Atención al Cliente</span> </h1>
+            <p class="lead text-dark">Ponte en contacto con nosotros y responderemos todas tus consultas.</p>
+            <form action="#" method="post" class="toggle-disabled">
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" >Nombre:</span>
+                </div>
+                <input type="text" name="nombre" class="form-control" placeholder="Introduce tu nombre" >
+              </div>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" >Correo:</span>
+                </div>
+                <input type="email" name="correo" class="form-control" placeholder="Introduce@tu.correo">
+              </div>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">Mensaje:</span>
+                </div>
+                <textarea name="mensaje" class="form-control" style="resize: none; height: 100px;"></textarea>
+              </div>
+              <div class="input-group">
+                <button type="submit" class="btn btn-danger btn-block">Enviar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="text-center bg-light text-dark p-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <ul class="nav justify-content-center">
+              <a class="nav-link facebook" href="#facebook"><i class="fab fa-facebook fa-4x"></i></a>
+              <a class="nav-link twitter" href="#twitter"><i class="fab fa-twitter-square fa-4x"></i></a>
+              <a class="nav-link youtube" href="#youtube"><i class="fab fa-youtube-square fa-4x"></i></a>
+              <a class="nav-link flickr" href="#flickr"><i class="fab fa-flickr fa-4x"></i></a>
+            </ul>
+          </div>
+          <div class="col-12">
+            <a class="text-danger" href="#inicio" title="Ir a Inicio">
+              <span><i class="fas fa-chevron-up fa-3x"></i></span>
+            </a>
+          </div>
+          <div class="col-12">
+            <span class="text-muted">2019 © Todos los derechos reservados :: Lima - Perú</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="libs/jquery-3.4.0.js"></script>
+    <script src="libs/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,462 @@
+/*limpiamos toda la pagina de los elementos CSS por defecto*/
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/*Aplicamos estilos a la cinta de navegacion*/
+.nav1 {
+    width: 100%;
+    height: 80px;
+    border: 2px solid black;
+    background-color: rgb(232, 227, 227);
+}
+
+.nav1 figure {
+    float: left;
+}
+.nav1 figure img {
+    width: 140px;
+    height: auto;
+    margin-top: 4px;
+    margin-left: 40px;
+}
+
+.nav1 h3 {
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 28px;
+    text-shadow: 2px 2px white;
+}
+
+.nav1 ul {
+    float: right;
+    margin-top: 20px;
+    margin-right: 100px;
+    padding: 10px;
+}
+
+.nav1 ul li {
+    display: inline-block;
+}
+
+.nav1 ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(93, 92, 92);
+    margin-right: 5px;
+}
+.nav1 ul li a:hover {
+    background-color: rgb(209, 203, 203);
+    color:black;
+    font-weight: bold;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+/*Estilos para la seccion 1 y sus elementos*/
+.seccion1 {
+    width: 100%;
+    height: 350px;
+    background-color:rgb(247, 34, 77);
+}
+
+.seccion1 a {
+    float: right;
+    font-size: 18px;
+    margin-right: 110px;
+    margin-top: 60px;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 16px ;
+    border-radius: 5px;
+}
+.seccion1 a:hover {
+    background-color: white;
+    color: black;
+}
+
+.seccion1 h1 {
+    clear: both;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 36px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.seccion1 h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.seccion1 .input {
+    margin-top: 10px;
+    margin-left: 550px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5px 5px 5px 5px;
+    width: 270px;
+    height: 42px;
+}
+
+.seccion1 .input #registrar {
+    margin-top: 0;
+    margin-left: 0;
+    font-size: 16px;
+    padding: 12px 15px;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+}
+.seccion1 .input button {
+    background-color: rgb(251, 54, 54);
+    padding: 10px;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    margin-left: 0;
+}
+
+.seccion1 .input button i {
+    font-size: 18px;
+    color: white;
+}
+.seccion1 .input:hover button:hover {
+    background-color: white;
+}
+
+.seccion1 button i:hover {
+    color: black;
+}
+
+/*Estilos para la seccion 2 slider*/
+.seccion2 {
+    width: 100%;
+    height: 450px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.seccion2 ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+
+    animation: slider 10s infinite alternate;
+}
+
+.seccion2 li {
+    width: 100%;
+    list-style-type: none;
+}
+
+.seccion2 img {
+    width: 100%;
+}
+
+.seccion2 {
+    position: relative;
+}
+
+#center {
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    top: 70%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 10px;
+}
+@keyframes slider {
+    0% {margin-left: 0%;}
+    20% {margin-left: 0%;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
+
+.seccion2 #center h1 {
+    font-size: 36px;
+    text-shadow: 3px 3px black;
+}
+
+.seccion2 #center p {
+    font-size: 20px;
+    text-shadow: 3px 3px black;
+}
+
+.seccion2 #center a {
+    border: 1px solid white;
+    color: white;
+    padding: 9px 14px;
+    border-radius: 5px;
+    line-height: 60px;
+}
+.seccion2 #center a:hover {
+    background-color: white;
+    color: black;
+}
+
+/*Estilos a la seccin 3 (Productos)*/
+
+.productos {
+    height: 620px;
+}
+
+.productos  h1 {
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.productos h1 a {
+    margin-left: 10px;
+    font-weight: bold;
+    color: black;
+    font-size: 14px;
+    padding: 9px 12px;
+    border-radius: 5px;
+}
+
+.productos h1 a .mas {
+    font-size: 20px;   
+}
+
+.productos h1 a:hover {
+  background-color: lightsteelblue;
+}
+
+.productos .galeria {
+    width: 20%;
+    height: 520px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    border: 1px solid rgb(186, 184, 184);
+    border-radius: 5px;  
+}
+
+.productos .galeria:hover {
+    box-shadow: 5px 5px 15px black;
+}
+
+.productos .galeria figure {
+    width: 100%;
+    height: 350px;
+}
+.productos .galeria figure img {
+    width: 100%;
+    height: 350px;
+}
+
+.productos .galeria h4 {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.productos .galeria .pie1 {
+    background-color: rgb(225, 221, 221);
+    width: 100%;
+    height: 60px;
+    margin-top: 50px;
+    border-top: 1px solid rgb(184, 177, 177);
+}
+
+.productos .galeria .pie1 span {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.productos .galeria .pie1 span i {
+    color: gold;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.productos .galeria .pie1 p {
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    color: rgba(56, 244, 4, 0.779);
+    font-weight: bold;
+}
+
+.seccion4 {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(247, 34, 77);
+}
+
+/*Estilos a la seccion 4*/
+
+.seccion4 .division1 {
+    width: 33%;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 150px;
+    color: white;
+    text-align: center;
+   
+}
+
+.seccion4 .division1 h4 i {
+    font-size: 36px;
+}
+
+.seccion4 .division1 .segundo {
+    margin-top: 20px;
+    font-size: 12px;
+
+}
+
+.seccion4 .division2 {
+    width: 33%;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.seccion4 .division2 h1 {
+    font-size: 36px;
+    margin-top: 60px;
+    text-shadow: 2px 2px black;
+}
+
+.seccion4 .division2 h4 {
+    margin-top: 48px;
+}
+.seccion4 .division2 p {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.seccion4 .division2 h4 i {
+    font-size: 36px;
+}
+
+.seccion5 {
+    width: 100%;
+    height: 400px;
+}
+
+.seccion5 .contenedor .div1 {
+    width: 33%;
+    float: left;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.seccion5 .contenedor .div1 p {
+    margin-top: 15px;
+}
+
+.seccion5 .contenedor .div2 {
+    width: 33%;
+    float: left;
+    margin-top: 60px;
+    text-align: justify;
+}
+
+.seccion5 .enlaces {
+    clear: both;
+    height: 150px; 
+    text-align: center;
+    line-height: 200px;
+}
+
+.seccion5 .enlaces a {
+    border: 1px solid black;
+    padding: 10px 16px;
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/*estilo al enlace facebock*/
+.seccion5 .enlaces .f {
+    background-color: blue;
+    color: white;
+}
+
+.seccion5 .enlaces .f:hover {
+    background-color: white;
+    color: blue;
+    box-shadow: 5px 5px 15px black;
+}
+
+/*estilo al enlace twiter*/
+.seccion5 .enlaces .t {
+    background-color: green;
+    color: white;
+}
+
+.seccion5 .enlaces .t:hover {
+    background-color: white;
+    color: green;
+    box-shadow: 5px 5px 15px black;
+}
+
+/*estilo al enlace youtube*/
+.seccion5 .enlaces .y {
+    background-color: red;
+    color: white;
+}
+
+.seccion5 .enlaces .y:hover {
+    background-color: white;
+    color: red;
+    box-shadow: 5px 5px 15px black;
+}
+
+/*estilo al enlace Instagram*/
+.seccion5 .enlaces .i {
+    background-color: fuchsia;
+    color: white;
+}
+
+.seccion5 .enlaces .i:hover {
+    background-color: white;
+    color: fuchsia;
+    box-shadow: 5px 5px 15px black;
+}
+
+/*estilo al icono arriba*/
+.seccion5 .ico {
+    text-align: center;
+}
+
+.seccion5 .ico .icono {
+    font-size: 42px;
+    font-weight: bold;
+    color: red;
+}
+
+.seccion5 .ico .icono:hover {
+    text-shadow: 5px 5px 15px black;
+}
+
+.seccion5 .foo  {
+    clear: both;
+}
+
+.seccion5 .foo footer {
+    margin-left: 40px;
+}
+

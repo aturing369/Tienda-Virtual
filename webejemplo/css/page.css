@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 13.5px !important;
+}
+
+.text-link a {
+  font-size: 12px;
+}
+
+.titulo-pagina {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 2px #000;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: bold;
+  font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.btn-text{
+  font-size: 9px;
+  word-wrap: break-word;
+  text-transform: capitalize;
+}
+
+.carousel-item > img {
+  filter:brightness(0.4);
+}
+
+.dropdown-item {
+  color: black;
+  font-size: 11px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 1px;
+  border-radius: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.dropdown-item > a:active {
+  background: red;
+  color: white;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  background: red;
+  color: white;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown-item:hover {
+  background: #F5152A;
+  color: #E4E4E4;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+.navbar {
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 1px;
+  border-radius: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.bs {
+  -webkit-box-shadow: inset 0px -60px 79px -76px rgba(0,0,0,0.68);
+-moz-box-shadow: inset 0px -60px 79px -76px rgba(0,0,0,0.68);
+box-shadow: inset 0px -60px 79px -76px rgba(0,0,0,0.68);
+}
+
+.bg-dark-2 {
+  background-color: #060606;
+}
+
+.facebook {
+  color: #0174DF;
+}
+
+.facebook:hover {
+  color: #004B91;
+}
+
+.twitter {
+  color: #1DA0F0;
+}
+
+.twitter:hover {
+  color: #1888CC;
+}
+
+.youtube {
+  color: #e52117;
+}
+
+.youtube:hover {
+  color: #c61f16;
+}
+
+.flickr {
+  color: #FF0089;
+}
+
+.flickr:hover {
+  color: #D10070;
+}

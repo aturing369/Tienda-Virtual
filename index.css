@@ -1,0 +1,482 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+/*Estilos para la cinta de navegacion*/
+nav {
+    width: 100%;
+    height: 120px;
+    background-color: lightslategrey;
+}
+
+nav figure {
+    float: left;
+    margin-left: 60px;
+}
+
+nav figure img {
+    width: 180px;
+    height: 120px;
+    box-shadow: 3px 3px 15px red;
+}
+
+nav h3 {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 40px;
+    text-shadow: 3px 3px  black;
+}
+
+nav ul {
+    float: right;
+    margin-right: 80px;
+    margin-top: 40px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+nav ul li a {
+    font-family:Arial, Helvetica, sans-;
+    font-size: 20px;
+    color: rgb(228, 226, 226);
+    text-shadow: 2px 2px black;
+}
+
+nav ul li a:hover {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    text-shadow: none;
+}
+
+/*Estilos para la seccion 1 y sus elementos*/
+.seccion1 {
+    width: 100%;
+    height: 320px;
+    background-color: crimson;
+}
+
+/*Estilos para el enlase iniciar sesion*/
+.seccion1 a {
+    float: right;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-right: 80px;
+    margin-top: 80px;
+    border: 1px solid white;
+    padding: 9px 18px;
+    border-radius: 5px;
+}
+
+.seccion1 a:hover {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+/*Estilos a la etiqueta h1*/
+.seccion1 h1 {
+    clear: both;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
+    text-shadow: 2px 2px  black;
+}
+
+/*Estilos al h3*/
+.seccion1 h3 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+/**Estilos al input*/
+.seccion1 input {
+margin-left: 600px;
+margin-top: 20px;
+padding: 13px 45px;
+border-radius: 5px 0px 0px 5px;
+border: none;
+}
+
+/*Estilos para el button*/
+.seccion1 button {
+    float: right;
+    background-color: crimson;
+    border: 1px solid white;
+    margin-right: 590px;
+    margin-top: 20px;
+    margin-left: 0;
+    padding: 6px 10px;
+    
+}
+
+/*Estilos al icono*/
+ i {
+    font-size: 30px;  
+    color: white; 
+}
+
+.seccion1 button:hover, i:hover {
+    background-color: white;
+}
+.seccion1 i:hover {
+    color: black;
+}
+
+/*--------------------------------------------*/
+/*Estilos a la seccion Slider*/
+
+.slider {
+    width: 100%;
+    height: 450px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+
+    animation: slider 10s infinite alternate;
+}
+
+.slider ul li {
+    width: 100%;
+    list-style-type: none;
+}
+
+.slider ul li img {
+    width: 100%;
+}
+
+@keyframes slider {
+    0% {margin-left: 0%;}
+    20% {margin-left: 0%;}
+
+    25% {margin-left: -100%;}
+    50% {margin-left: -100%;}
+
+    55% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
+
+/*Estilos al texto y al enlace del slider*/
+
+.slider {
+    position: relative;
+}
+
+.center {
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    top: 60%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 10px;
+    line-height: 40px;
+}
+
+.slider .center h1 {
+    font-size: 30px;
+    text-shadow: 3px 3px black;
+}
+
+.slider .center h4 {
+    font-size: 20px;
+    text-shadow: 2px 2px black;
+}
+
+.slider .center a {
+    font-size: 18px;
+    color: white;
+    padding: 9px 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px black;
+}
+.slider .center a:hover {
+   background-color: white;
+   color: black;
+}
+
+/*estilos para la seccion 2 h1, span-enlace*/
+.seccion2 {
+    margin-top: 30;
+    width: 100%;
+    height: 560px;
+}
+
+.seccion2 h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.seccion2 .moviles {
+    font-style: italic;
+    font-size: 26px;
+}
+
+.seccion2 h1 a {
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+    padding: 5px 12px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.seccion2 h1 a:hover {
+   background-color: lightblue;
+   border: none;
+}
+
+.seccion2 h1 a .mas {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/*Estilos para el figure .imagen*/
+
+
+/*Estilos al class imagen , img, h4 footer*/
+.seccion2 .imagen {
+    float: left;
+    width: 21%;
+    height: 480px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border: 1px solid rgb(186, 218, 186);
+    border-radius: 5px;
+   
+}
+.seccion2 .imagen:hover {
+    box-shadow: 3px 3px 15px black;
+}
+
+.seccion2 .imagen img {
+    width: 100%;
+    height: 320px;
+}
+
+.seccion2 .imagen h4 {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.seccion2 .imagen footer {
+    width: 100%;
+    height: 60px;
+    margin-top: 42px;
+    border-top: 1px solid rgb(186, 218, 186);
+    background-color: rgb(218, 243, 218);
+}
+
+.seccion2 .imagen footer span {
+    margin-left: 20px;
+}
+
+.seccion2 .imagen footer span i {
+    font-size: 16px;
+    margin-top: 20px;
+    color: gold;
+    font-weight: bold;
+}
+
+.seccion2 .imagen footer p {
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    color:lime;
+    font-weight: bold;
+}
+
+/*Estilos a la seccion tres*/
+
+.seccion3 {
+    width: 100%;
+    height: 320px;
+    background-color: crimson;
+}
+
+/*estilos a las divisiones de la seccion 3*/
+
+.seccion3 .div1 {
+    float: left;
+    width: 33%;
+    margin-top: 120px;
+    text-align: center;
+    color: white;
+}
+
+.seccion3 .div1 h4 {
+    text-shadow: 2px 2px black;
+}
+
+.seccion3 .div1 p {
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.seccion3 .div1 i, .div2 i {
+    font-size: 42px;
+}
+
+.seccion3 .div1 i:hover, .div2 i:hover {
+   background-color: crimson;
+}
+
+.seccion3 .div2 {
+    float: left;
+    width: 33%;
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+}
+
+.seccion3 .div2 h1 {
+    font-size: 42px;
+    text-shadow: 2px 2px black;
+}
+
+.seccion3 .div2 h4 {
+    margin-top: 30px;
+    text-shadow: 2px 2px black;
+}
+
+.seccion3 .div2 p {
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+/*Estilos a la seccion4*/
+.seccion4 {
+    width: 100%;
+    height: 450px;
+    
+}
+
+/*Estilos en las divisiones*/
+.seccion4 .diva {
+    width: 33%;
+    float: left;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.seccion4 .diva  p {
+    margin-top: 20px;
+}
+
+.seccion4 .diva  p a  {
+    color: mediumblue;
+}
+
+.seccion4 .diva  p a:hover  {
+    text-decoration: underline;
+}
+
+.seccion4 .divb {
+    width: 33%;
+    float: left;
+    margin-top: 60px;
+}
+
+.seccion4 .divb h4 {
+    margin-top: 20px;
+}
+
+/*Estilos a los enlaces botones*/
+
+.seccion4 .botones {
+    clear: both;
+    text-align: center;
+    height: 200px;
+}
+
+.seccion4 .botones a {
+    line-height: 200px;
+    padding: 10px 15px;
+    border: 1px solid black;
+    font-size: 24px;
+    border-radius: 5px;
+}
+
+.seccion4 .botones .f {
+    background-color: blue;
+    color: white;
+    border: 1px solid white;
+}
+
+.seccion4 .botones .f:hover {
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+}
+
+.seccion4 .botones .t {
+    background-color: green;
+    color: white;
+    border: 1px solid white;
+}
+
+.seccion4 .botones .t:hover {
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+}
+
+.seccion4 .botones .y {
+    background-color: red;
+    color: white;
+    border: 1px solid white;
+}
+
+.seccion4 .botones .y:hover {
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+}
+
+.seccion4 .botones .i {
+    background-color: fuchsia;
+    color: white;
+    border: 1px solid white;
+}
+
+.seccion4 .botones .i:hover {
+    background-color: white;
+    color: fuchsia;
+    border: 1px solid fuchsia;
+}
+
+.foo footer {
+    float: right;
+}
+

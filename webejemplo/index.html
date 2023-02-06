@@ -1,0 +1,463 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Fontawesome css -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- CSS Personalizacion -->
+    <link rel="stylesheet" type="text/css" href="css/page.css">
+    <link rel="stylesheet" href="webejemplo/stylos.css">
+    <!-- Titulo -->
+    <title>Tienda Virtual Electronica</title>
+  </head>
+  <!-- En body le colocamos un nombre de id para la navegacion -->
+  <body id="inicio">
+    <!-- Inicio del encabezado del sitio web -->
+      <!-- Inicio del navbar, el menu de navegacion -->
+        <nav class="navbar navbar-expand-md navbar-light bg-white bs p-0" role="navegador">
+          <!-- navbar: para darle estilos de bootstrap de navegacion -->
+          <!-- navbar-expand-md: para que el navbar cambie de estilo para moviles a estilo para pc en pantallas de tamaño mediano o superior -->
+          <!-- navbar-light: para darle estilo de color light -->
+          <!-- bg-white: para dar color blanco del fondo del navbar  -->
+          <!-- bs: para dar un sombredo dentro del elemento del que sea asignado -->
+          <!-- p-0: asigna padding:0px al elemento nav  -->
+          <div class="container">
+            <!-- creamos un div con la clase container para poder usar el grid system -->
+            <a class="navbar-brand p-0" href="#">
+              <!-- creamos un <a> para crear un logo para el navbar -->
+              <!-- navbar-brand: para dar estilos para el logo de la pagina en el navbar  -->
+              
+              <img src="img/img_logo/logo2.jpg" width="100" height="60" alt=""> World System.sac
+              
+              <!-- añadimos una imagen como un logo de la pagina asi como tambien escribimos el nombre de la paginaweb el tamaño de la imagen sera de 100px X 60px -->
+            </a>
+            <button class="navbar-toggler" type="button" data-target=".navbar-collapse" data-toggle="collapse" aria-label="Expandir navegador" aria-expanded="false">
+              <!-- Creamos un boton que servira para hacer aparecer el menu de navegacion cuando esta pagina se vea en moviles o pantallas pequeñas -->
+              <!-- navbar-toggler: para darle estilos de button para la navegacion -->
+              <span class="navbar-toggler-icon"></span>
+              <!-- creamos un <span> para mostrar el icon de menu en el boton creado anteriormente -->
+              <!-- navbar-toggler-icon: para que aparezca el icono de menu -->
+            </button>
+            <div class="collapse navbar-collapse justify-content-md-end" id="navegador">
+              <!-- creamos un <div> que tenga la clase collapse navbar-collapse para que es pueda aparecer en moviles al darle click a un button navbar-toggler -->
+              <ul  class="navbar-nav navbar-right text-center">
+                <!-- creamos una lista <ul> con las clases navbar-nav navbar-right para crear un menu y que este se direccione a la derecha y usamos la clase text-center para que el contenido de este se centre -->
+                <li class="nav-item">
+                  <!-- creamos un <li> con la clase nav-item para crear opciones del menu de navegacion -->
+                  <a class="nav-link" href="index.html#inicio">Inicio</a>
+                  <!-- creamos un <a> con la clase nav-link para crear enlaces para los botones del menu de navegacion -->
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="sobre-nosotros.html">Sobre Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="novedades.html">Novedades</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      <!-- fin del navbar -->
+
+      <header>
+        <div class="jumbotron mb-0 rounded-0 text-center bg-danger text-light">
+          <!-- creamos un <div> con la clase jumbotron clase usada para crear contenido que llame la atencion en la pagina web  -->
+          <div class="container-fluid">
+            <!-- creamos un <div> con la clase container-fluid para usar el grid system -->
+            <div class="row justify-content-end m-0 p-0">
+              <!-- creamos un <div> con la clase row justify-content-end para crear una fila con el contenido alineado a la derecha y agregamos las clases m-0 y p-0 para que este div tenga margin 0px y padding 0px -->
+              <div class="col-auto m-0 p-0">
+                <!-- creamos un <div> con la clase col-auto la cual tendra un tamaño dependiendo del contenido de este y con las clases m-0 y p-0 para que este div tenga margin 0px y padding 0px -->
+                <a href="login.html" class="btn btn-outline-light"><i class="fas fa-sign-in-alt"></i> Iniciar Sesión</a>
+                <!-- creamos un enlace <a> con las clase btn btn-outline-light para darle estilos de button con colores hover y creamos un <i> con la clase fas fa-sign-in-alt para darle un estilo icono -->
+              </div>
+            </div>
+
+            <div class="row justify-content-center mb-2">
+              <!-- creamos un <div> con las clases row justify-content-center mb-2 para crear una fila con el contenido alineado en el centro con un margin  -->
+              <div class="col-auto titulo-pagina">
+                <!-- creamos un <div> con las clases col-auto la cual tendra un tamaño dependiendo del contenido de este, titulo-pagina le dará estilos personalizados -->
+                <h1>Obtén una suscripción ahora</h1>
+                <p class="lead">Y entérate de nuestras novedades.</p>
+                <!-- creamos <p> con la clase lead para darle estilos de fuente -->
+              </div>
+
+            </div>
+
+            <div class="row justify-content-center">
+              <div class="col-auto">
+                <div class="input-group">
+                  <!-- creamos un <div> con la clase input-group para hacer la agrupacion de elementos input y button -->
+                  <input type="text" class="form-control" placeholder="suscribete@tu.correo">
+                  <!-- creamos un <input> con la clase form-control para darle estilos de formuario -->
+                  <div class="input-group-append">
+                    <!-- creamos un <div> con la clase input-group-append para el button se agrupe con el input -->
+                    <button class="btn btn-outline-light" type="button"><i class="fas fa-envelope"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </header>
+    <!-- fin del encabezado del sitio web -->
+
+    <div class="container-fluid">
+      <div class="row">
+        <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+          <!-- creamos un div con las clase carousel slide para dar los estilos de un carousel de imagenes-->
+          <div class="carousel-inner">
+            <!-- creamos un div con la clase carousel-inner para darle estilos de lo que contendra las imagenes del carousel -->
+            <div class="carousel-item active">
+              <!-- creamos un div con la clase carousel-item para dar estilos de item del carousel, active esta clase indica que este item se mostrará primero al cargar la pagina-->
+              <img class="d-block w-100"  src="img/img_slider/slider6.jpg" width="2000" height="500" alt="imagen1">
+             <!-- <img src="img/img_slider/slider1.jpg">https://via.placeholder.com/1600x600.png?text=Slider+1-->
+
+              <!-- creamos img con la clase d-block w-100 que hace que la imagen con un ancho del 100% y que se pueda ver desde dispositivos más pequeños -->
+              <div class="carousel-caption d-none d-md-block">
+                <!-- creamos un div carousel-caption para que le de estilos para texto de un item del carousel, d-none para que el texto no sea visible desde dispositivos más pequeños d-md-block para que el div sea visible en dispositivos medianos y más grandes -->
+                <h5>Dispositivos Electronicos de ultima Generacion</h5>
+                <p> Todo Moviles y Computadoras</p>
+                <a class="btn btn-sm btn-outline-light" href="#"> Leer más</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100"  src="img/img_slider/slider3.jpg" width="2000" height="500" alt="imagen2">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Todo Programas Y Aplicaciones</h5>
+                <p>Windows, Mac, Linux, Android, Ios, Apple y mas... </p>
+                <a class="btn btn-sm btn-outline-light" href="#"> Leer más</a>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <main class="container-fluid">
+
+      <section id="productos">
+        <div class="row py-4 px-5">
+          <!-- creamos una div con las clases row para dar estilos de fila, py-4 para darle un determinado tamaño padding-top y padding-bottom, px-5 para darle determinado tamaño al padding right y padding left -->
+          <div class="col-12 text-left">
+            <!-- creamos un columna con clase text-left con el texto orientado a la izquierda -->
+            <h5>Productos Destacados: Moviles</h5>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 pt-3 pb-3">
+            <!-- creamos una columna con pt-3 para el agregar padding-top, pb-3 para agregar padding-bottom -->
+            <a class="card-link" href="producto.html">
+              <div class="card bs">
+                <!-- creamos un div con la clase card para darle estilos de card de bootstrap -->
+                <img class="card-img-top" src="img/img_movil/movil1.jpg" width="640" height="300" alt="Card image cap">
+                <!-- creamos una img con la clase card-img-top para darle estilos de imagen de encabezado del card -->
+                <div class="card-body">
+                  <!-- creamos un div con la clase card-body para darle estilos de contenido del card -->
+                  <p class="card-title text-dark"><strong>Samsung X10</strong></p>
+                  <!-- creamos un p con las clases card-title text-dark para darle estilos de titulo de contenido de card y darle color dark al texto -->
+                </div>
+                <div class="card-footer">
+                  <!-- creamos un div con la clase card-footer para darle estilos de pie de pagina para el card -->
+                  <div class="float-right text-success"><b>S/</b> 900.00</div>
+                  <!-- creamos un div con la clase float-right text-success para hacer que este div se mueva al extremo derecho del div que lo contiene y le da color success -->
+                  <div class="float-left"><small class="text-warning"><strong><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></strong></small>
+                  <!-- creamos un div con la clase float-left para hacer que este div se mueva al extremo izquierdo del div que lo contiene -->
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 pt-3 pb-3">
+            <a class="card-link" href="producto.html">
+              <div class="card bs">
+                <img class="card-img-top" src="img/img_movil/movil2.jpg" width="640" height="300" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-title text-dark"><strong>Motorolla G-20</strong></p>
+                </div>
+                <div class="card-footer">
+                  <div class="float-right text-success"><b>S/</b> 1200.00</div>
+                  <div class="float-left"><small class="text-warning"><strong><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></strong></small></div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 pt-3 pb-3">
+            <a class="card-link" href="producto.html">
+              <div class="card bs">
+                <img class="card-img-top" src="img/img_movil/movil3.jpg" width="660" height="300" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-title text-dark"><strong>Apple 3-50</strong></p>
+                </div>
+                <div class="card-footer">
+                  <div class="float-right text-success"><b>S/</b> 3500.00</div>
+                  <div class="float-left"><small class="text-warning"><strong><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></strong></small></div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 pt-3 pb-3">
+            <a class="card-link" href="producto.html">
+              <div class="card bs">
+                <img class="card-img-top" src="img/img_movil/movil4.jpg" width="660" height="300"alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-title text-dark"><strong>Huawei Mate 9</strong></p>
+                </div>
+                <div class="card-footer">
+                  <div class="float-right text-success"><b>S/</b> 950.00</div>
+                  <div class="float-left"><small class="text-warning"><strong><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></strong></small></div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="row py-4 px-5">
+          <div class="col-12 text-left">
+            <h5 class="">Productos Destacados: Laptops <a href="#" class="badge badge-light">Ver <i class="fa fa-plus"></i></a></h5>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 pt-3 pb-3">
+            <a class="card-link" href="producto.html">
+              <div class="card bs">
+                <img class="card-img-top" src="img/img_laptop/lap1.jpg" width="660" height="300" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-title text-dark"><strong>Asus raysen 5</strong></p>
+                </div>
+                <div class="card-footer">
+                  <div class="float-right text-success"><b>S/</b> 3500.00</div>
+                  <div class="float-left"><small class="text-warning"><strong><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></strong></small></div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 pt-3 pb-3">
+            <a class="card-link" href="producto.html">
+              <div class="card bs">
+                <img class="card-img-top" src="img/img_laptop/lap2.jpg" width="660" height="300"  alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-title text-dark"><strong>Toshiba Satelite 2000</strong></p>
+                </div>
+                <div class="card-footer">
+                  <div class="float-right text-success"><b>S/</b> 4000.00</div>
+                  <div class="float-left"><small class="text-warning"><strong><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></strong></small></div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 pt-3 pb-3">
+            <a class="card-link" href="producto.html">
+              <div class="card bs">
+                <img class="card-img-top" src="img/img_laptop/lap3.jpg" width="660" height="300" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-title text-dark"><strong>HP Infinity</strong></p>
+                </div>
+                <div class="card-footer">
+                  <div class="float-right text-success"><b>S/</b> 4200.00</div>
+                  <div class="float-left"><small class="text-warning"><strong><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></strong></small></div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 pt-3 pb-3">
+            <a class="card-link" href="producto.html">
+              <div class="card bs">
+                <img class="card-img-top" src="img/img_laptop/lap4.jpg" width="660" height="300" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-title text-dark"><strong>Lenovo mate 3200</strong></p>
+                </div>
+                <div class="card-footer">
+                  <div class="float-right text-success"><b>S/</b> 2000.00</div>
+                  <div class="float-left"><small class="text-warning"><strong><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></strong></small></div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="row py-4 px-5">
+          <div class="col-12 text-left">
+            <h5 class="">Productos Destacados: Sistema Operativo y Antivirus <a href="#" class="badge badge-light">Ver <i class="fa fa-plus"></i></a></h5>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 pt-3 pb-3">
+            <a class="card-link" href="producto.html">
+              <div class="card bs">
+                <img class="card-img-top" src="img/img_soft/win1.jpg" width="660" height="300" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-title text-dark"><strong>Todo sistema Operativo Windows</strong></p>
+                </div>
+                <div class="card-footer">
+                  <div class="float-right text-success"><b>Desde S/</b>  90.00</div>
+                  <div class="float-left"><small class="text-warning"><strong><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></strong></small></div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 pt-3 pb-3">
+            <a class="card-link" href="producto.html">
+              <div class="card bs">
+                <img class="card-img-top" src="img/img_soft/mac1.jpeg" width="660" height="300" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-title text-dark"><strong>Todo sistema Operativo Mac</strong></p>
+                </div>
+                <div class="card-footer">
+                  <div class="float-right text-success"><b>Desde S/</b> 150.00</div>
+                  <div class="float-left"><small class="text-warning"><strong><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></strong></small></div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 pt-3 pb-3">
+            <a class="card-link" href="producto.html">
+              <div class="card bs">
+                <img class="card-img-top" src="img/img_soft/linux1.webp" width="660" height="300" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-title text-dark"><strong>Todo Sistema Operativo Linux</strong></p>
+                </div>
+                <div class="card-footer">
+                  <div class="float-right text-success"><b>Desde S/</b> 70.00</div>
+                  <div class="float-left"><small class="text-warning"><strong><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></strong></small></div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 pt-3 pb-3">
+            <a class="card-link" href="producto.html">
+              <div class="card bs">
+                <img class="card-img-top" src="img/img_soft/not1.jpg" width="660" height="300" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-title text-dark"><strong>Todo Antivirus</strong></p>
+                </div>
+                <div class="card-footer">
+                  <div class="float-right text-success"><b>Desde S/</b> 90.00</div>
+                  <div class="float-left"><small class="text-warning"><strong><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></strong></small></div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="row justify-content-center bg-danger text-white p-5">
+          <!-- creamos un div con la clase row justify-content-center bg-danger text-white p-5 que le da estilos dee fila con el contenido centrado con el fondo de color danger el texto blanco y con padding general -->
+          <div class="col col-sm-12 col-md-7 col-lg-6 col-xl-6 text-center" style="opacity:0.8;">
+            <h2 class="titulo-pagina">¿Porqué Elegirnos?</h2>
+          </div>
+          <div class="w-100 py-3"></div>
+          <!-- creamos un div con tamaño 100% con padding-top y padding-bottom -->
+          <div class="col">
+            <div class="d-flex justify-content-center text-center">
+              <!-- creamos un div con la clase d-flex justify-content-center text-center que hace que este div pueda ser centrado y tambien su contenido -->
+              <span class="align-self-center mr-2 fa-3x">
+                <!-- creamos un span con la clase align-self-center mr-2 fa-3x que hace que este span se centre a si mismo tanto horizontal como vertical con margin-right y haciendo los iconos 3 veces más grandes -->
+                <span class="fa-layers fa-fw">
+                  <i class="fas fa-globe"></i>
+                </span>
+                <!-- creamos span con la clases para crea iconos -->
+              </span>
+              <span class="text-uppercase font-weight-bold align-self-center" style="font-size: 0.9em" > Servicio online</span>
+              <!-- creamos un span con las clases text-uppercase font-weight-bold align-self-center para que el texto sea en mayusculas, con estilo negrita y que se centre -->
+            </div>
+            <p class="text-center" style="font-size: 0.8em">Nuestros servicio son totalmente en linea y contamos personal capacitado para atenderlo en cualquier horario.</p>
+          </div>
+          <div class="col">
+            <div class="d-flex justify-content-center text-center">
+              <span class="align-self-center mr-2 fa-3x">
+                <span class="fa-layers fa-fw">
+                  <i class="fas fa-shield-alt"></i>
+                </span>
+              </span>
+              <span class="text-uppercase font-weight-bold align-self-center" style="font-size: 0.9em" > Transacciones Seguras </span>
+            </div>
+            <p class="text-center" style="font-size: 0.8em">Las transacciones son 100% seguras y cuentan con garantias.</p>
+          </div>
+          <div class="col">
+            <div class="d-flex justify-content-center text-center">
+              <span class="align-self-center mr-2 fa-3x">
+                <span class="fa-layers fa-fw">
+                  <i class="fas fa-shipping-fast"></i>
+                </span>
+              </span>
+              <span class="text-uppercase font-weight-bold align-self-center" style="font-size: 0.9em" > Envios a Domicilio </span>
+            </div>
+            <p class="text-center" style="font-size: 0.8em">Hacemos llegar tu producto a la puerta de tu casa.</p>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="text-center bg-light text-dark ">
+      <!-- creamos un footer con la clases text-center bg-light text-dark con el texto centrado con un color de fondo de color light y el texto color dark -->
+      <div class="container">
+        <div class="row">
+          <div class="col p-5">
+            <!-- creamos un div con las clases col p-5 le dara estilos de columna con un padding general-->
+            <h5>Nuestra Empresa</h5>
+            <a class="btn btn-block btn-link btn-sm" href="#">Sobre Nosotros</a>
+            <!-- creamos un <a> con clases btn btn-block btn-link btn-sm que dara estilos de button tipo link que ocupe todo el ancho del div que lo contiene con tamaño small pequeño-->
+            <a class="btn btn-block btn-link btn-sm" href="#">Contacto</a>
+          </div>
+          <div class="col p-5">
+            <h5>Información</h5>
+            <a class="btn btn-block btn-link btn-sm" href="#">Aviso Legal</a>
+            <a class="btn btn-block btn-link btn-sm" href="#">Politica de Privacidad</a>
+          </div>
+          <div class="col p-5">
+            <h5>Contacta con Nosotros </h5>
+            <address class="text-left">
+              <strong>Nombre Empresa SAC</strong>
+              <br>Calle Uno Oeste 60
+              <br>Bellavista 15036, Lima
+              <br>
+              <abbr title="Phone">Telf:</abbr> 99 999-9999
+              <br>
+              <abbr title="Email">Email:</abbr> <a href="mailto:#">empresa@correo.electronico</a>
+            </address>
+          </div>
+          <div class="col-12">
+            <ul class="nav justify-content-center">
+              <!-- creamos un <ul> con las clases nav justify-content-center que le dara estilos de navegacion con el contenido centrado -->
+              <a class="nav-link facebook" href="#facebook"><i class="fab fa-facebook fa-4x"></i></a>
+              <!-- creamos un <a> con las clases nav-link facebook para darle estilos de opcion de navegacion con colores caracteristicos del facebook -->
+              <!-- creamos un <i> con las clases fab fa-facebook fa-4x para crear icono de facebook on un tamaño x4 -->  
+              <a class="nav-link twitter" href="#twitter"><i class="fab fa-twitter-square fa-4x"></i></a>
+              <a class="nav-link youtube" href="#youtube"><i class="fab fa-youtube-square fa-4x"></i></a>
+              <a class="nav-link flickr" href="#flickr"><i class="fab fa-flickr fa-4x"></i></a>
+            </ul>
+          </div>
+          <div class="col-12">
+            <a class="text-danger" href="#inicio" title="Ir a Inicio">
+              <span><i class="fas fa-chevron-up fa-3x"></i></span>
+            </a>
+          </div>
+          <div class="col-12">
+            <span class="text-muted">2019 © Todos los derechos reservados :: Lima - Perú</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="libs/jquery-3.4.0.js"></script>
+    <script src="libs/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

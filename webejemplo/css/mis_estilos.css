@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Akronim|Lobster');
+
+.font-akronim{
+	font-family: 'Akronim', cursive;
+}
+
+.font-lobster{
+	font-family: 'Lobster', cursive;
+}
+
+.alert-morado{
+	background-color: rgba(160, 27, 98, 0.5);
+	color: white;
+}
+
+@media (max-width: 576px){
+	.font-akronim{
+		font-size: 15px;
+		color: purple;
+	}
+
+	.font-lobster{
+		font-size: 10px;
+		color: orange;
+	}
+}
+
+@media (max-width: 768px){
+	
+}
+
+@media (max-width: 992px) {
+		
+}
+
+@media (max-width: 1200px) {
+	
+}

@@ -1,0 +1,332 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+/*estilos al navegador*/
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(110, 110, 111);
+}
+
+nav figure img {
+    float: left;
+    width: 180px;
+    height: 100px;
+    margin-left: 60px;
+}
+
+nav h1 {
+    float: left;
+    margin-left: 20px;
+    margin-top: 40px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+nav ul {
+    float: right;
+    margin-right: 60px;
+    margin-top: 40px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    font-size: 20px;
+    color: rgb(178, 183, 184);
+    padding: 5px;
+}
+
+nav ul li a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+/*Estilos a la seccion 2*/
+.seccion1 {
+    width: 100%;
+    height: 320px;
+    background-color: crimson;
+}
+
+.seccion1 a {
+    float: right;
+    margin-right: 60px;
+    margin-top: 80px;
+    font-size: 24px;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 18px;
+    border-radius: 5px;
+}
+.seccion1 a:hover {
+    color: black;
+    background-color: white;
+}
+
+.seccion1 h1 {
+    clear: both;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.seccion1 h4 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.seccion1 input {
+    float: left;
+    margin-left: 550px;
+    margin-top: 15px;
+    padding: 10px 28px;
+    border: 1px solid white;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.seccion1 button {
+    float: left;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: crimson;
+    border: 1px solid white;
+    border-radius: 0px 5px 5px 0px;
+}
+.seccion1 button:hover {
+    background-color: white;
+}
+
+.seccion1 button i {
+    color: white;
+}
+.seccion1 button i:hover {
+    color: black;
+}
+
+/*Estilos seccion 2*/
+.seccion2 {
+    width: 100%;
+    height: 400px;
+    border: 1px solid rgb(232, 229, 229)
+}
+
+.seccion2 .imagen {
+    width: 40%;
+    float: left;
+}
+.seccion2 .imagen img {
+    width: 100%;
+    height: 400px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.seccion2 .parrafos {
+    width: 60%;
+    float: left;
+}
+.seccion2 .parrafos h1 {
+    font-size: 36px;
+    margin-top: 10px;
+    padding: 20px;
+    opacity: 0.6;
+} 
+.seccion2 .parrafos p {
+    font-size: 24px;
+    padding: 20px;
+    opacity: 0.6;
+}
+
+/*Estilos a la seccion 3*/
+.seccion3 {
+    clear: both;
+    width: 100%;
+    height: 350px;
+    
+}
+
+.seccion3 h1 {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.seccion3 .contenedor {
+    margin-top: 40px;
+ 
+}
+.seccion3 .contenedor .mercadol img {
+   float: right;
+}
+
+.seccion3 .contenedor .mercadol {
+    width: 24%;
+    float: left;
+}
+
+.seccion3 .contenedor .ebuy {
+    width: 24%;
+    float: left;
+}
+.seccion3 .contenedor .tiendastore {
+    width: 24%;
+    float: left;
+}
+.seccion3 .contenedor .topbox {
+    width: 24%;
+    float: left;
+}
+
+/*Estilos a la seccion 4*/
+.seccion4 {
+    width: 100%;
+    height: 300px;
+    background-color: crimson;
+}
+
+.seccion4 .div1 {
+    width: 33%;
+    float: left;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+.seccion4 .div1 p {
+    margin-top: 20px;
+    font-size: 12px;
+}
+.seccion4 .div1 h4 i {
+    font-size: 36px;
+}
+
+.seccion4 .div2 {
+    width: 33%;
+    float: left;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+}
+.seccion4 .div2 h1 {
+    font-size: 36px;
+}
+.seccion4 .div2 h4 {
+    margin-top: 30px;
+}
+.seccion4 .div2 h4 i {
+    font-size: 36px;
+}
+.seccion4 .div2 p {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+/*Estilos para la seccion 5*/
+.seccion5 {
+    width: 100%;
+    height: 420px;
+}
+.seccion5 .container {
+    width: 100%;
+    height: 200px;
+}
+.seccion5 .container .diva {
+    width: 33%;
+    float: left;
+    text-align: center;
+    margin-top: 60px;
+}
+.seccion5 .container .diva p {
+    margin-top: 20px;
+}
+.seccion5 .container .diva p a {
+    color: blue;
+}
+.seccion5 .container .diva p a:hover {
+    text-decoration: underline;
+}
+
+
+.seccion5 .container .divb {
+    width: 33%;
+    float: left;
+    margin-top: 60px;
+}
+
+.seccion5 .botones {
+    clear: both;
+    text-align: center;
+    height: 150px;
+    margin-top: 60px;
+}
+.seccion5 .botones a {
+    font-size: 20px;
+    padding: 10px 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+
+.seccion5 .botones p {
+    margin-top: 30px;
+      
+}
+.seccion5 .botones p a {
+   border: none;     
+}
+
+.seccion5 .botones p i {
+    font-size: 42px;
+    color: crimson;     
+}
+
+.seccion5 .botones .f {
+   background-color: blue;
+   color: white;     
+}
+.seccion5 .botones .f:hover {
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;     
+ }
+
+ .seccion5 .botones .t {
+    background-color: green;
+    color: white;     
+ }
+ .seccion5 .botones .t:hover {
+     background-color: white;
+     color: green;
+     border: 1px solid green;     
+  }
+
+  .seccion5 .botones .y {
+    background-color: red;
+    color: white;     
+ }
+ .seccion5 .botones .y:hover {
+     background-color: white;
+     color: red;
+     border: 1px solid red;     
+  }
+
+  .seccion5 .botones .i {
+    background-color: fuchsia;
+    color: white;     
+ }
+ .seccion5 .botones .i:hover {
+     background-color: white;
+     color: fuchsia;
+     border: 1px solid fuchsia;     
+  }

@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/*Estilos para el navegador*/
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(220, 216, 216);
+}
+nav figure {
+    float: left;
+    width: 150px;
+    height: 80px;
+    margin-left: 50px;
+}
+nav figure img {
+    width: 100%;
+    height: 80px;
+}
+nav h1 {
+    float: left;
+    margin-left: 20px;
+    line-height: 80px;
+    color: black;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px white;
+}
+nav ul {
+    float: right;
+    margin-right: 80px;
+    line-height: 80px;
+}
+nav ul li {
+    display: inline-block;
+    
+}
+nav ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 5px;
+    color: dimgrey;
+}
+nav ul li a:hover {
+    color: black;
+    text-decoration: underline;  
+}
+
+/*Estilos para laseccion 1*/
+.seccion1 {
+    width: 100%;
+    height: 350px;
+    background-color: crimson;
+}
+.seccion1 a {
+    float: right;
+    margin-right: 80px;
+    margin-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 18px;
+    border-radius: 5px;
+}
+.seccion1 a:hover {
+    background-color: white;
+    color: black;
+}
+.seccion1 h1 {
+    clear: both;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+.seccion1 h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: normal;
+    text-shadow: 2px 2px black;
+}
+.seccion1 input {
+    float: left;
+    margin-left: 570px;
+    margin-top: 20px;
+    padding: 8px;
+    border: 2px solid white;
+    border-radius: 5px 0px 0px 5px ;
+}
+.seccion1 button {
+    float: left;
+    padding: 9px;
+    background-color: crimson;
+    border: 1px solid white;
+    margin-top: 20px;
+}
+.seccion1 button i {
+    color: white;
+}
+.seccion1 button:hover {
+    background-color: white;
+}
+.seccion1 button i:hover {
+    color: black;
+}
+
+/*estilos a la seccion 3*/
+.seccion2 {
+    width: 100%;
+    height: auto;
+}
+.seccion2 .galeria {
+    float: left;
+    width: 21%;
+    height: 450px;
+    margin-left: 50px;
+    margin-top: 40px;
+    border: 1px solid rgb(222, 219, 219);
+}
+.seccion2 .galeria:hover {
+   box-shadow: 2px 2px 15px black;
+}
+.seccion2 .galeria figure {
+    width: 100%;
+    height: 300px;
+}
+.seccion2 .galeria figure img {
+    width: 100%;
+    height: 300px;
+}
+.seccion2 .galeria h4 {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.seccion2 .galeria .piepag {
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid rgb(222, 219, 219);
+    margin-top: 40px;
+    background-color: rgb(237, 232, 232);
+}
+.seccion2 .galeria .piepag span {
+    margin-left: 10px;
+   
+}
+.seccion2 .galeria .piepag span i {
+    font-size: 16px;
+    color: gold;
+    margin-top: 15px;
+}
+.seccion2 .galeria .piepag p {
+    float: right;
+    margin-right: 20px;
+    margin-top: 15px;
+    font-size: 18px;
+    color: green;
+}
+
+/*Estilos a la seccion 3*/
+.seccion3 {
+    width: 100%;
+    height: 500px; 
+}
+.seccion3 .diva {
+    width: 33%;
+    float: left;
+    margin-top: 60px;
+    text-align: center;
+}
+.seccion3 .diva p {
+    margin-top: 20px;
+}
+.seccion3 .diva p a:hover {
+    text-decoration: underline;
+}
+    
+.seccion3 .divb {
+    width: 33%;
+    float: left;
+    margin-top: 60px;
+}
+
+/*Estilos para la seccion 4*/
+.seccion4 {
+    clear: both;
+    width: 100%;
+    height: 200px;
+    border: 1px solid white;
+}
+
+.seccion4 .sociales {
+    text-align: center; 
+    margin-top: 100px;
+}
+
+.seccion4 .sociales a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 10px 18px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.seccion4 .sociales .f {
+    background-color: blue;
+    color: white;
+}
+.seccion4 .sociales .f:hover {
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+    font-weight: bold;
+}
+
+.seccion4 .sociales .t {
+    background-color: green;
+    color: white;
+}
+.seccion4 .sociales .t:hover {
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+    font-weight: bold;
+}
+
+.seccion4 .sociales .y {
+    background-color: red;
+    color: white;
+}
+.seccion4 .sociales .y:hover {
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+    font-weight: bold;
+}
+
+.seccion4 .sociales .i {
+    background-color: fuchsia;
+    color: white;
+}
+.seccion4 .sociales .i:hover {
+    background-color: white;
+    color: fuchsia;
+    border: 1px solid fuchsia;
+    font-weight: bold;
+}
+.seccion4 .sociales p {
+    margin-top: 40px;
+}
+.seccion4 .sociales p a {
+    border: none;
+}
+
+
+.seccion4 .sociales p a i {
+    font-size: 36px;
+    color: crimson;
+}
+
+.seccion4 .sociales footer {
+    margin-top: 10px;
+}
